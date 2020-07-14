@@ -1,0 +1,25 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,10161.6,121939.2,USD,"Change records per statement (0.38), (6 instances)  db.r5.4xlarge  Memory optimized  OnDemand"
+Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,250.03,3000.36,USD,Number of Application Load Balancers (1)
+Increased_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,25.19,302.28,USD,"Number of Network Load Balancers (1), Average TCP connection duration (1 seconds), Average number of new TCP connections (1000 per second), Processed bytes per NLB for TCP (2 GB per hour)"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,263.25,3159,USD,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (N. Virginia),S3 Standard,0,280.52,3366.24,USD,S3 Standard storage (10 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),Data Transfer,0,92.07,1104.84,USD,"Data Transfer, Data transfer cost (92.07)"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,3376.27,40515.24,USD,"Operating system (Linux), Quantity (24), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3a.2xlarge)"
+Increased_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,2792.16,33505.92,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (g2.2xlarge)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+Rationale,,,,,,,
+If the budget increases I will add more database nodes and change their specs a little bit,,,,,,,
+in order to handle more requests from the application servers. ,,,,,,,
+,,,,,,,
+I also added more EC2 instances for both web servers and application servers and increased their memory and vCPUS.,,,,,,,
+,,,,,,,
+"I have added some GPU optimized instances to the infrastructure that we could use for image and video processing,",,,,,,,
+since the infrastructure we are building is for a social media app.,,,,,,,
+,,,,,,,
+The information provided its hard to know where to optimize. The requirements are not very precise.,,,,,,,

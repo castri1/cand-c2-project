@@ -1,0 +1,897 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:07Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "udacity-cloudtraillogs",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "uqwzWyC9o4h9RsVcJEOMT0IewmK6uzwGzStEcQUqWGqlq+qsMssOoRx9o4TYyEX1LK86R/FXXKc=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "2F2447818E5E207B",
+      "eventID": "fec7f4e9-98f7-4f64-9554-249f0c076b0d",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:07Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "udacity-cloudtraillogs",
+        "max-keys": "300",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/383178746571/CloudTrail/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "kjrruhB8Ah7o3ZBV9ZaebhhadW+r/tdUEQacklub44vEOE3QeovOc4OjINnt1Bt6ZfDuUjNnISg=",
+        "bytesTransferredOut": 533.0
+      },
+      "requestID": "69A5A5D3FE60CC42",
+      "eventID": "6111e344-fe3f-4272-a57a-3bda9e70fcf6",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/383178746571/CloudTrail/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:07Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "udacity-cloudtraillogs",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "TydFRLysTswfLjcVRUn/XIHoNTUNmFbCu6Nx7JD64ppBjYcfBF8iqPvsXzk8FSBR1GOrujlxLto=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "3F67B252A32C23B2",
+      "eventID": "d1ab03f4-84b2-4724-80e4-c2197a5f672d",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:07Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "udacity-cloudtraillogs",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "pmfPFgEf7A327EBMcw4EemjQcQH6VSdfne6GyMNizOePoLdk3xmkprjTaOtB7wq2rXHf47vMYFk=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "24BB182EF009C0CB",
+      "eventID": "f7156e46-20b9-4a0e-9d78-673796917357",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:10Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "udacity-cloudtraillogs",
+        "max-keys": "300",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/383178746571/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "6vn0VaDPlFt9UkKs5A29Ck/nLUfbQZPOua0ezlJ1W6kiPjn+m0YHC7qy2nQoRxjMaFw90NiC7hg=",
+        "bytesTransferredOut": 468.0
+      },
+      "requestID": "CE705E3A376A3E2E",
+      "eventID": "27c97145-b35e-473d-bdd2-c1c6d90a01c3",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/383178746571/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "cloudtrail.amazonaws.com"
+      },
+      "eventTime": "2020-07-14T04:44:13Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "cloudtrail.amazonaws.com",
+      "userAgent": "cloudtrail.amazonaws.com",
+      "requestParameters": {
+        "bucketName": "udacity-cloudtraillogs",
+        "Host": "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com",
+        "x-amz-acl": "bucket-owner-full-control",
+        "x-amz-server-side-encryption": "AES256",
+        "key": "AWSLogs/383178746571/CloudTrail/us-east-1/2020/07/14/383178746571_CloudTrail_us-east-1_20200714T0440Z_ItOU1sOBORklz5lY.json.gz"
+      },
+      "responseElements": {
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 853.0,
+        "SSEApplied": "SSE_S3",
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "PowijJTApYmiTu3tAxj7Rze2byOExw0fxy+5s1VWKd8vwrT28nmUqpxt4VjgtlnZCW970OhMqkU=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "13E0A7D4DD169007",
+      "eventID": "11f7022f-cd4b-44bb-8889-5cdd74507a2b",
+      "readOnly": false,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/383178746571/CloudTrail/us-east-1/2020/07/14/383178746571_CloudTrail_us-east-1_20200714T0440Z_ItOU1sOBORklz5lY.json.gz"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "sharedEventID": "843a8729-18e5-46ab-90ba-a4bee4fe7705",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "cloudtrail.amazonaws.com"
+      },
+      "eventTime": "2020-07-14T04:44:18Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "cloudtrail.amazonaws.com",
+      "userAgent": "cloudtrail.amazonaws.com",
+      "requestParameters": {
+        "bucketName": "udacity-cloudtraillogs",
+        "Host": "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com",
+        "x-amz-acl": "bucket-owner-full-control",
+        "x-amz-server-side-encryption": "AES256",
+        "key": "AWSLogs/383178746571/CloudTrail/us-east-1/2020/07/14/383178746571_CloudTrail_us-east-1_20200714T0440Z_NVJJ5S5GJhk5nE6Q.json.gz"
+      },
+      "responseElements": {
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 1330.0,
+        "SSEApplied": "SSE_S3",
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "DuPgFR+3p5bN/3+UftEpy0iDmLPXpyxRElbi+ZsOfpD3JYKJC/t/38ZbUQuXOlj/JP3x4kg8900=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "3932028167F95D26",
+      "eventID": "018064ba-1d2b-4d51-8c37-54ba9ec5d0e6",
+      "readOnly": false,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/383178746571/CloudTrail/us-east-1/2020/07/14/383178746571_CloudTrail_us-east-1_20200714T0440Z_NVJJ5S5GJhk5nE6Q.json.gz"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "sharedEventID": "9488d7af-566a-4636-a0d0-4dabbc30aac6",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "AWSService",
+        "invokedBy": "cloudtrail.amazonaws.com"
+      },
+      "eventTime": "2020-07-14T04:44:43Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "PutObject",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "cloudtrail.amazonaws.com",
+      "userAgent": "cloudtrail.amazonaws.com",
+      "requestParameters": {
+        "bucketName": "udacity-cloudtraillogs",
+        "Host": "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com",
+        "x-amz-acl": "bucket-owner-full-control",
+        "x-amz-server-side-encryption": "AES256",
+        "key": "AWSLogs/383178746571/CloudTrail/us-east-1/2020/07/14/383178746571_CloudTrail_us-east-1_20200714T0440Z_UOaYpGBXD58P80q1.json.gz"
+      },
+      "responseElements": {
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 843.0,
+        "SSEApplied": "SSE_S3",
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "LGAAOJXE+HYX6EUrUh+llJOY7tThClDwYY6lXFvDj3Zag3CsxBKz5A0WI+u4A6VyX2it3DxGGQA=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "EEF11971DD6D038D",
+      "eventID": "ecfecf4f-a366-4977-9e53-31a7c39e81c2",
+      "readOnly": false,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/383178746571/CloudTrail/us-east-1/2020/07/14/383178746571_CloudTrail_us-east-1_20200714T0440Z_UOaYpGBXD58P80q1.json.gz"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "sharedEventID": "3a6aadb5-5fa4-4157-ae84-59b002cb7825",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:52Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "udacity-cloudtraillogs",
+        "max-keys": "300",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/383178746571/CloudTrail-Digest/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "Fn1hxNxOeqVg76C/6UVDA/NfSTg+i5yoGCytrpid1tDGMN1h31G763omzyZnkBxeFe2afTUg6E0=",
+        "bytesTransferredOut": 547.0
+      },
+      "requestID": "BPCHCK3N1WAS5R9Y",
+      "eventID": "c7af3b6a-3364-4f4b-b9d2-4e6cb0a6f10f",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/383178746571/CloudTrail-Digest/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:59Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "udacity-cloudtraillogs",
+        "max-keys": "300",
+        "fetch-owner": "true",
+        "prefix": "",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "/cSue6YT/ddsYtuzJKc2asaqPBC5Gmo1pq9p8y2d2T3a08c9IUCMXhfIpDZ+ys4udgS79rgV/MM=",
+        "bytesTransferredOut": 334.0
+      },
+      "requestID": "E4ABF8F88DCF5BC7",
+      "eventID": "17b999dd-5ac8-4fe1-a6e5-279993a24de4",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:44:57Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListObjects",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "list-type": "2",
+        "bucketName": "udacity-cloudtraillogs",
+        "max-keys": "300",
+        "fetch-owner": "true",
+        "prefix": "AWSLogs/",
+        "delimiter": "/",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "XKgHMoPqjBRlsCTOaZbEkPmoxHhonDHVjRnxe37803oEvfVAMHipkA40yTTmY9rG7Et2kuKfaG0=",
+        "bytesTransferredOut": 355.0
+      },
+      "requestID": "C20C80DDE0B0FED6",
+      "eventID": "e6340b50-2039-43fd-9838-3aeac463f4e5",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-cloudtraillogs/AWSLogs/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-cloudtraillogs"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:45:02Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "elasticbeanstalk-us-east-1-383178746571",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "suIMYBZcVrRsIy6u852RTYM1KCvZ/hsTHHscjx0FdeW3wr74QiVt0Mjs+81QpZBGMajHTOL9tVo=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "BC9622B979FAB30B",
+      "eventID": "b74467a4-bda4-452a-ac5d-b93956bf4ec5",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::elasticbeanstalk-us-east-1-383178746571/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::elasticbeanstalk-us-east-1-383178746571"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:45:02Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "cicd-workshop-us-east-1-383178746571",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "/3IJ5fjFi2iyVU4k7tqxfI4tBxlXS0yLuz8vwHnzDvZB9r5r08DhFJhQADcOxR9LB3afp+ZOn44=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "36CEC164C0C8A4E0",
+      "eventID": "fd2cc800-4780-4465-9bd6-ea5f926c5644",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::cicd-workshop-us-east-1-383178746571/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::cicd-workshop-us-east-1-383178746571"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:45:02Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "udacity-exercise1",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "KrX47WnxVvwi2XiYCkOEGHki6r5ImQ+iyP7TikCmKpufYPVseIw1jf5oNA4w63cKY6HYe1hm5cE=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "3952C64842621319",
+      "eventID": "6979cf0c-ba6b-4ad6-a46a-8703ccb446d4",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::udacity-exercise1/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::udacity-exercise1"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:45:02Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "cloud9-383178746571-sam-deployments-us-east-1",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "f5yk1ESO6fAUPnIeEBqxhJXIwZlUDQSe+eOwHXjLRgHt90uGcyNV+ndobJ+vfMJ8NJey+vKKiSo=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "5F789CE810B5F79C",
+      "eventID": "e06849dd-b0ba-41c6-8dd2-e11761c4100c",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::cloud9-383178746571-sam-deployments-us-east-1/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::cloud9-383178746571-sam-deployments-us-east-1"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    },
+    {
+      "eventVersion": "1.07",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF6GST3KUR4",
+        "arn": "arn:aws:iam::383178746571:user/CloudTrail",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFRBSIWNGH",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2020-07-14T04:42:47Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2020-07-14T04:45:02Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucketName": "cf-templates-1iw7wcd3axotj-us-east-1",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "bytesTransferredIn": 0.0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "yr2lVidysM2bIU7br7Vn/sAJ5EMITriBkw9oA2IjbWtw9hMQeMNZ4ZO7ch3G9eO68HNxBwInY3g=",
+        "bytesTransferredOut": 0.0
+      },
+      "requestID": "5F07E2C4A8DAB9C0",
+      "eventID": "63651508-1e01-4fd6-80d6-1fcbf1944fa1",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::cf-templates-1iw7wcd3axotj-us-east-1/"
+        },
+        {
+          "accountId": "383178746571",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::cf-templates-1iw7wcd3axotj-us-east-1"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d",
+      "eventCategory": "Data"
+    }
+  ]
+}

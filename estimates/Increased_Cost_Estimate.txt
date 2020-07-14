@@ -1,0 +1,9 @@
+If the budget increases I will add more database nodes and change their specs a little bit
+in order to handle more requests from the application servers. 
+
+I also added more EC2 instances for both web servers and application servers and increased their memory and vCPUS.
+
+I have added some GPU optimized instances to the infrastructure that we could use for image and video processing,
+since the infrastructure we are building is for a social media app.
+
+The information provided its hard to know where to optimize. The requirements are not very precise.

@@ -1,0 +1,5 @@
+The requirements are somehow vague and not very specific, 
+so its kind of hard to determine where optimizations can be done.
+If the cost needs to be reduced to $6.500 I will reduce:
+- The number of database nodes but not their storage capacity. 
+- The number of EC2 instances
