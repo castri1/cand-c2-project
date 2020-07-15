@@ -19,7 +19,7 @@ resource "aws_instance" "Udacity_T2" {
   count = "4"
   subnet_id = "subnet-0997f0a29c25898ed"
   tags = {
-    Env = "development"
+    Name = "Udacity T2"
   }
 }
 
@@ -30,6 +30,6 @@ resource "aws_instance" "Udacity_T2" {
 #   count = "2"
 #   subnet_id = "subnet-0997f0a29c25898ed"
 #   tags = {
-#     Env = "development"
+#     Name = "Udacity M4"
 #   }
 # }

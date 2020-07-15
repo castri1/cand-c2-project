@@ -1,16 +1,16 @@
 provider "aws" {
-  region     = var.region
-  profile    = var.daniel_profile
+  region  = var.region
+  profile = var.daniel_profile
 }
 
 data "archive_file" "lambda_zip" {
-    type          = "zip"
-    source_file   = "greet_lambda.py"
-    output_path   = "lambda_function.zip"
+  type        = "zip"
+  source_file = "greet_lambda.py"
+  output_path = "lambda_function.zip"
 }
 
 resource "aws_iam_role" "lambda_exec" {
-  name = "serverless_udacity_lambda"
+  name               = "serverless_udacity_lambda"
   assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
@@ -29,12 +29,12 @@ EOF
 }
 
 resource "aws_lambda_function" "udacity_lambda" {
-  filename      = "lambda_function.zip"
-  function_name = var.lambda_function_name
-  role          = aws_iam_role.lambda_exec.arn
-  handler       = var.lambda_function_handler
+  filename         = "lambda_function.zip"
+  function_name    = var.lambda_function_name
+  role             = aws_iam_role.lambda_exec.arn
+  handler          = var.lambda_function_handler
   source_code_hash = data.archive_file.lambda_zip.output_base64sha256
-  runtime = "python3.8"
+  runtime          = "python3.8"
 
   environment {
     variables = {
