@@ -1,0 +1,70 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF5Q76EVCTC",
+        "arn": "arn:aws:iam::383178746571:user/Accountant",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLFV5JT2IDH",
+        "userName": "Accountant",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-07-15T20:38:47Z"
+          }
+        },
+        "invokedBy": "AWS Internal"
+      },
+      "eventTime": "2020-07-15T20:39:09Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "ChangePassword",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "AWS Internal",
+      "userAgent": "AWS Internal",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "3df0a868-7229-4f78-98b5-3c772528c210",
+      "eventID": "b1d90050-f023-468a-906b-c02d437ed124",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVSNZ3VLF5Q76EVCTC",
+        "arn": "arn:aws:iam::383178746571:user/Accountant",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5SSOUKFO",
+        "userName": "Accountant",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-07-15T20:39:09Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:39:16Z",
+      "eventSource": "health.amazonaws.com",
+      "eventName": "DescribeEventAggregates",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "console.amazonaws.com",
+      "errorCode": "AccessDenied",
+      "errorMessage": "User: arn:aws:iam::383178746571:user/Accountant is not authorized to perform: health:DescribeEventAggregates on resource: *",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "b0ba7e99-7400-4dbb-9e43-a8abb61e6e28",
+      "eventID": "e6fdcb44-1862-4a2d-b8f4-a38a69ec0349",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571"
+    }
+  ]
+}

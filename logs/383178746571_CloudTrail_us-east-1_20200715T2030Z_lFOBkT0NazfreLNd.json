@@ -1,0 +1,2826 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "9B015CB7EF06AB26",
+      "eventID": "af0304f0-b7d8-4375-bf3c-a752255531bd",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:32Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "37652673D5BE577C",
+      "eventID": "c28965cb-964c-458b-af68-97d453c36d40",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "3C0FD9440FD8E0A7",
+      "eventID": "d685ec78-8edd-4632-a699-e7babcae91e2",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:39Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "6F99F7E6638F0B3F",
+      "eventID": "47bd659d-51f8-403a-9cd8-f8365b15f665",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:37Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketEncryption",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "ServerSideEncryptionConfigurationNotFoundError",
+      "errorMessage": "The server side encryption configuration was not found",
+      "requestParameters": {
+        "encryption": [
+          ""
+        ],
+        "host": [
+          "s3.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "468367D44D25F614",
+      "eventID": "6f29a515-08e8-4c58-bdd3-44a81039f5bd",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "elasticbeanstalk-us-east-1-383178746571.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "elasticbeanstalk-us-east-1-383178746571"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "CC6E9E64462D95E5",
+      "eventID": "c3ff6413-e1f9-4319-a124-7fa92753ce5b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "CE5A36F212878D69",
+      "eventID": "2c44fb1c-bd07-423d-b2ff-e224ec1c83f0",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "cloud9-383178746571-sam-deployments-us-east-1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cloud9-383178746571-sam-deployments-us-east-1"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "381A21CC8B6EBDC0",
+      "eventID": "70949f6b-7b17-4e23-a996-8fd4d4bbe59a",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:37Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "F7776EA2DF9287AD",
+      "eventID": "640bc3f6-c032-4936-81ec-a7e2f100bcfc",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "3CE6E572E74A4753",
+      "eventID": "34877129-5018-4545-bd0a-dfaf226d4a71",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:39Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1S9G7G8G7SFYAY6P",
+      "eventID": "98d4d4d8-739a-4063-94ca-884247b6776b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:39Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "200572F896F95432",
+      "eventID": "8edfce78-30c8-4284-959d-87aa7f7cd0ee",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "AFD2443902D96957",
+      "eventID": "1f8b5601-3f6b-41fe-9487-ebaa989db874",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListAccessPoints",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucket": [
+          "cicd-workshop-us-east-1-383178746571"
+        ],
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ],
+        "maxResults": [
+          "1"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "D2E3C08C5D318D7E",
+      "eventID": "b3557018-53b2-42fb-a27c-ebe5345dc666",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "udacity-exercise1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-exercise1",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "584529E6FC02209F",
+      "eventID": "cf5503cb-0836-453d-9c6b-bdcddd0cb8f7",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "99D374A6151B639A",
+      "eventID": "bb341f40-3524-428b-9406-dc27ec17df30",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-exercise1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-exercise1"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "0C904C187B141F63",
+      "eventID": "2fd099ef-3be1-409f-9d89-37b1111d5b98",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "userName": "ctr1",
+        "invokedBy": "AWS Internal"
+      },
+      "eventTime": "2020-07-15T20:29:16Z",
+      "eventSource": "sts.amazonaws.com",
+      "eventName": "GetSessionToken",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "AWS Internal",
+      "userAgent": "AWS Internal",
+      "requestParameters": {
+        "durationSeconds": 43200
+      },
+      "responseElements": {
+        "credentials": {
+          "accessKeyId": "ASIAVSNZ3VLF2JAL3NLF",
+          "expiration": "Jul 16, 2020 8:29:16 AM",
+          "sessionToken": "IQoJb3JpZ2luX2VjEAUaCXVzLWVhc3QtMSJHMEUCIGlaXmlUxTPTKy8eDwqBZMkpBnxyn6IayLi4f2YTU+oUAiEAnho+l70OQcdqyQd1rwmCArWNkV2MMHEXBdfMKfunVVIqmgEIrv//////////ARAAGgwzODMxNzg3NDY1NzEiDLeURkB90HSsP9s4iSpv1rG/MEhXzGO1SYjHweSf6dLy15nGtpTne9gJ9T8Y+ZDo5EV4PwNXIX+AqX8ydxcf1hw25247YVM1QZ6nuDbidsILXGi35oqlFmximK8TAebZZG2C9pBHiPmlqeuS9KRih/sZWIS0SSELdwGgWHkQMJzOvfgFOt4Bc1cJ9YhX5+DwjuX5lFBNQEH/EDpVEFdAK/FrLW4jhx1718OzzLOUfEYQQusKtLcQu18PyibvJRtiNiyCiSCmh4vzFjBcYyN/NhZe4akQNS+U/Ik3lJJvDHaoAU9qAd+MQsBxN2CfHhnulACMDWZDHC90idmcqfoJfzhEo20MO5EmkCeeegLxbIAXtvffokKP+LjEAGyViECrp86+d3rgHrZqpcL1HCUe7IfaifemFzsmRnu88d0qJyVFA673/z3LK36axncLS8275VusqP6v5G3e5ljQWxfjzSp3pFH3"
+        }
+      },
+      "requestID": "0d7651ed-7ba4-4a29-a39f-268af458007a",
+      "eventID": "e6857fec-537e-4d29-ac01-0653827c9cd8",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "C53AE736A291E8E3",
+      "eventID": "ff06d59d-1270-4849-b3c3-5eebe2c4dafb",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketEncryption",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "ServerSideEncryptionConfigurationNotFoundError",
+      "errorMessage": "The server side encryption configuration was not found",
+      "requestParameters": {
+        "encryption": [
+          ""
+        ],
+        "host": [
+          "s3.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "4E36B15C752078ED",
+      "eventID": "67369b1a-cc50-4a49-a171-1ec9fa6c9c4e",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "2DF4FFB5DF46740D",
+      "eventID": "8f0eaa9b-a66f-44d5-a99b-3719781067e5",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "7D30C79FC48081BF",
+      "eventID": "95c7284b-5b5b-4806-8b5f-0f5642bb0cf0",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "E7D3FF172E95A4BC",
+      "eventID": "b19bdf67-15a8-4117-8269-0c53699e6619",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "cicd-workshop-us-east-1-383178746571.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cicd-workshop-us-east-1-383178746571",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "93E6A03BE034C7D3",
+      "eventID": "fe0b82d8-3593-4dca-9907-5d09a238d015",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "cloud9-383178746571-sam-deployments-us-east-1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cloud9-383178746571-sam-deployments-us-east-1",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "E697B9A6B41604C2",
+      "eventID": "960c5d6c-945f-4f19-a0c9-26bac1503a2c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListAccessPoints",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucket": [
+          "cf-templates-1iw7wcd3axotj-us-east-1"
+        ],
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ],
+        "maxResults": [
+          "1"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1JDV1H9Q6R6HAJ8M",
+      "eventID": "9c97fb8c-d07f-4ca7-bcc2-9e6e56aa360b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListAccessPoints",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucket": [
+          "udacity-cloudtraillogs"
+        ],
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ],
+        "maxResults": [
+          "1"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "E539C456B22ED4F4",
+      "eventID": "bfcdc755-2fe5-4046-9e04-af4b353e1291",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchBucketPolicy",
+      "errorMessage": "The bucket policy does not exist",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "cloud9-383178746571-sam-deployments-us-east-1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cloud9-383178746571-sam-deployments-us-east-1"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "6DE66CB40AC92D60",
+      "eventID": "9c6c01f6-018d-412d-a8ee-da455b434f8a",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:40Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "DBB26445A1DB5D3C",
+      "eventID": "be6e532f-5904-41bf-a0a7-d949b6c87b2c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "cf-templates-1iw7wcd3axotj-us-east-1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cf-templates-1iw7wcd3axotj-us-east-1",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "6E0EB68C7319C969",
+      "eventID": "1a9ddbd0-f089-4566-b904-99813fe10691",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "cf-templates-1iw7wcd3axotj-us-east-1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cf-templates-1iw7wcd3axotj-us-east-1"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "226B2DE3650DC232",
+      "eventID": "8c5c8c35-a2c7-4066-a51b-b9724170fdf7",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF3NWMFM7C",
+        "userName": "ctr1",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:22Z",
+      "eventSource": "health.amazonaws.com",
+      "eventName": "DescribeEventAggregates",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "aggregateField": "eventTypeCategory",
+        "filter": {
+          "eventStatusCodes": [
+            "open",
+            "upcoming"
+          ],
+          "startTimes": [
+            {
+              "from": "Jul 8, 2020 8:29:22 PM"
+            }
+          ]
+        }
+      },
+      "responseElements": null,
+      "requestID": "2acfd284-a310-45d7-a06a-f35ae35d37ba",
+      "eventID": "2660032e-8615-4427-8a49-a4e98473671b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "91D1DC4273E8A01C",
+      "eventID": "3015e219-78af-473a-ba26-0e84937ae302",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchBucketPolicy",
+      "errorMessage": "The bucket policy does not exist",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "cf-templates-1iw7wcd3axotj-us-east-1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cf-templates-1iw7wcd3axotj-us-east-1"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "6K6SDN5N6YES0JFR",
+      "eventID": "518c2c5a-4c5c-475b-bf4c-a644781e8571",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListAccessPoints",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucket": [
+          "udacity-exercise1"
+        ],
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ],
+        "maxResults": [
+          "1"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "6616F6D5850DB971",
+      "eventID": "542697d7-3b10-4b86-a5e8-4ed08fb9b38b",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:38Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "53A4EBDAFADE7B33",
+      "eventID": "426808e2-7caf-40d1-9c52-29715137d8ed",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "udacity-exercise1.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-exercise1"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "277E85CCA87EA9C9",
+      "eventID": "938e029e-dc90-43a8-bec1-2ad7975f5900",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1D457819620F9ED4",
+      "eventID": "fabc2d3f-9425-462d-85fc-a6ff2a6d75af",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchBucketPolicy",
+      "errorMessage": "The bucket policy does not exist",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "cicd-workshop-us-east-1-383178746571.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cicd-workshop-us-east-1-383178746571"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "37CA36BF6100D697",
+      "eventID": "f16b9a90-68e5-4b01-9980-efe01562fbbe",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "AB97A66F38655751",
+      "eventID": "04a85a6a-3207-4d85-a8d3-f711e2eb7967",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "BN8XBSBG7RDJ9KCM",
+      "eventID": "67529fd9-be20-4054-8bc6-c9659059a8f8",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1HAKAW4N3X2VCNCP",
+      "eventID": "47aedc08-75bf-4481-93dd-cefc6695edd5",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:32Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "4C8D3317B4A7AEA2",
+      "eventID": "400b4883-f559-4126-a3cc-fd1e21a68423",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:41Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1AA75F4F280FFA47",
+      "eventID": "147e55d2-1189-46bc-a121-dc1007f9bb69",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1E0B2F53B80FA5FD",
+      "eventID": "f3319462-5b1e-4d13-95ed-3107fd74591c",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "11443D53963F02E5",
+      "eventID": "9a9917b5-d37f-4ada-9687-a7b8e3310e6d",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:32Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketEncryption",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "ServerSideEncryptionConfigurationNotFoundError",
+      "errorMessage": "The server side encryption configuration was not found",
+      "requestParameters": {
+        "encryption": [
+          ""
+        ],
+        "host": [
+          "s3.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "945E60CF369B7E96",
+      "eventID": "8074d8f1-21d4-4ddc-bc6b-37d717be0cbf",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPolicyStatus",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "policyStatus": [
+          ""
+        ],
+        "host": [
+          "elasticbeanstalk-us-east-1-383178746571.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "elasticbeanstalk-us-east-1-383178746571"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "9BDC6CC35E5E1545",
+      "eventID": "fb0f838f-a450-4d37-adb9-0c12aad77a7f",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "CN9MEJBHCV1QDJ0J",
+      "eventID": "7b55c089-5b46-4415-82a4-a82a23e09717",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListAccessPoints",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucket": [
+          "cloud9-383178746571-sam-deployments-us-east-1"
+        ],
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ],
+        "maxResults": [
+          "1"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "AAD90713892080B3",
+      "eventID": "93b84ce4-8510-4f82-a9e6-3e987e273eeb",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "7BDAD357368EBF8F",
+      "eventID": "2f0e393f-4112-4e0a-b4fb-497056496539",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:36Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "EB2FA22015D3D458",
+      "eventID": "0b6117cb-5ba6-4342-8d84-35682ae5274e",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:32Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketVersioning",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "s3.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs",
+        "versioning": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "321F6B2CE4120629",
+      "eventID": "0ea0d6f1-460b-4abd-a3c1-29269fee64e1",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketAcl",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "elasticbeanstalk-us-east-1-383178746571.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "elasticbeanstalk-us-east-1-383178746571",
+        "acl": [
+          ""
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "7DCD880F6A2688AD",
+      "eventID": "f49dc7c5-0ae6-4cde-a8d6-71d08ff27ca3",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListAccessPoints",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "bucket": [
+          "elasticbeanstalk-us-east-1-383178746571"
+        ],
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ],
+        "maxResults": [
+          "1"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "E6B182554F5A8146",
+      "eventID": "a6ea943b-fa11-4a84-8406-f1b4bbfee439",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "cicd-workshop-us-east-1-383178746571.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "cicd-workshop-us-east-1-383178746571"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "7553D3FA5CE488D1",
+      "eventID": "28a70f56-ed60-4d02-8d80-01c86712035e",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:33Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "ABBE594E51F24A55",
+      "eventID": "593ba873-44c6-4cf0-b7fd-a23079be6084",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetAccountPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "host": [
+          "383178746571.s3-control.us-east-1.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "8T9P1Y1GFWDH4M7P",
+      "eventID": "a80e51c1-899e-4692-858b-347866106807",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:35Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketEncryption",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "ServerSideEncryptionConfigurationNotFoundError",
+      "errorMessage": "The server side encryption configuration was not found",
+      "requestParameters": {
+        "encryption": [
+          ""
+        ],
+        "host": [
+          "s3.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "E493F16921B67E07",
+      "eventID": "db489f32-d215-4fb1-a704-9d6ceb8b01e0",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF3NWMFM7C",
+        "userName": "ctr1",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:19Z",
+      "eventSource": "health.amazonaws.com",
+      "eventName": "DescribeEventAggregates",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "aggregateField": "eventTypeCategory",
+        "filter": {
+          "eventStatusCodes": [
+            "open",
+            "upcoming"
+          ],
+          "startTimes": [
+            {
+              "from": "Jul 8, 2020 8:29:19 PM"
+            }
+          ]
+        }
+      },
+      "responseElements": null,
+      "requestID": "39bfb69e-ae51-4d5c-8953-6034966c00da",
+      "eventID": "2db58eb9-f143-4e15-92d3-f1cb3ae3ca78",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:22Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBuckets",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "s3.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "1E5128CB69F93689",
+      "eventID": "ec42f236-a4f1-4f13-9bbb-99dac2c4b203",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:34Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketEncryption",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "ServerSideEncryptionConfigurationNotFoundError",
+      "errorMessage": "The server side encryption configuration was not found",
+      "requestParameters": {
+        "encryption": [
+          ""
+        ],
+        "host": [
+          "s3.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "CFD8AD3805416EBB",
+      "eventID": "90c29e27-1534-48f9-a09f-b29ddc432991",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571",
+        "accessKeyId": "ASIAVSNZ3VLF5AU5YAVB",
+        "userName": "ctr1",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-07-15T20:29:16Z"
+          }
+        }
+      },
+      "eventTime": "2020-07-15T20:29:38Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetBucketPublicAccessBlock",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.217-0.1.ac.205.84.332.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "errorCode": "NoSuchPublicAccessBlockConfiguration",
+      "errorMessage": "The public access block configuration was not found",
+      "requestParameters": {
+        "publicAccessBlock": [
+          ""
+        ],
+        "host": [
+          "udacity-cloudtraillogs.s3.us-east-1.amazonaws.com"
+        ],
+        "bucketName": "udacity-cloudtraillogs"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-f40dc59d"
+      },
+      "requestID": "2Y4V2P6YCWEN0W3R",
+      "eventID": "210a5b02-0ff8-44f0-af6f-76ae65f3ef60",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "383178746571",
+      "vpcEndpointId": "vpce-f40dc59d"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "383178746571",
+        "arn": "arn:aws:iam::383178746571:root",
+        "accountId": "383178746571"
+      },
+      "eventTime": "2020-07-15T20:29:16Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "191.89.101.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36",
+      "requestParameters": null,
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      },
+      "additionalEventData": {
+        "LoginTo": "https://console.aws.amazon.com/console/home?nc2\u003dh_ct\u0026src\u003dheader-signin\u0026state\u003dhashArgs%23\u0026isauthcode\u003dtrue",
+        "MobileVersion": "No",
+        "MFAUsed": "Yes"
+      },
+      "eventID": "b6f28f53-45b5-4345-a6bb-f2a5940144f8",
+      "eventType": "AwsConsoleSignIn",
+      "recipientAccountId": "383178746571"
+    }
+  ]
+}
